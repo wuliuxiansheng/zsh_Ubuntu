@@ -54,6 +54,7 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/ga
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+source /opt/ros/indigo/setup.zsh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
