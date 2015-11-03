@@ -51,10 +51,11 @@ plugins=(git)
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/bin/gcc-arm-none-eabi/bin
+export PATH=/opt/ros/jade/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/bin/gcc-arm-none-eabi/bin:/usr/local/bin/gcc-arm-none-eabi/bin
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
-source /opt/ros/indigo/setup.zsh
+source /opt/ros/jade/setup.zsh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
